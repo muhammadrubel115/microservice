@@ -42,6 +42,12 @@ INSTALLED_APPS = [
 
     'users',
     'authentication',
+<<<<<<< HEAD
+=======
+    'audit',
+
+    'services',
+>>>>>>> 973a508fb6725d5c50031b2761615495605f5045
 
     "rest_framework_simplejwt.token_blacklist",
 ]

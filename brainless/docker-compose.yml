@@ -1,0 +1,4 @@
+docker-compose.yml
+- user-service:8000
+- brainless-service:8001
+- redis

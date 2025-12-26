@@ -30,6 +30,7 @@ urlpatterns = [
     # Public
     path("api/auth/", include("authentication.urls")),
 
+<<<<<<< HEAD
     
 ]
 
@@ -37,3 +38,8 @@ urlpatterns = [
 #   "email_or_phone": "user200@example.com",
 #  "password": "YourSecurePassword123"
 # }
+=======
+    # Internal
+    path("api/users/", include("users.urls")),
+]
+>>>>>>> 973a508fb6725d5c50031b2761615495605f5045

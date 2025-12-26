@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\sumon\Desktop\microservice-main\venv
+=======
+set VIRTUAL_ENV=C:\Users\sumon\Desktop\microservice\venv
+>>>>>>> 973a508fb6725d5c50031b2761615495605f5045
 
 if not defined PROMPT set PROMPT=$P$G
 
